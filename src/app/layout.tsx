@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Merriweather } from "next/font/google";
 import "../styles/globals.css";
+import { ThemeProvider } from "@/components/ui/theme-provider"
 
 const merriweather = Merriweather({
   weight: ["400"],
@@ -20,7 +21,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={merriweather.className}>{children}</body>
+      <body className={merriweather.className}><ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
+            {children}
+          </ThemeProvider></body>
     </html>
   );
 }
