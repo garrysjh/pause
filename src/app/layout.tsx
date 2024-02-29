@@ -9,8 +9,8 @@ const merriweather = Merriweather({
 });
 
 export const metadata: Metadata = {
-  title: "Pause",
-  description: "Created by Garry Shi",
+  title: "Garry",
+  description: "Pause, Created by Garry",
 };
 
 export default function RootLayout({
