@@ -7,15 +7,16 @@ import { ModeToggle } from "@/components/mode-toggle";
 export default function Home() {
   return (
     <main>
-      <div className="flex">
-        <div className="row-auto p-8">
-          <NavigationBar />
-        </div>
-        <div className="flex md:flex md:flex-grow flex-row-reverse space-x-1 p-8">
+      <div className="flex md:flex md:flex-grow flex-row-reverse space-x-1 p-8">
+        <div className="row">
           <ModeToggle />
         </div>
+        <div className="row">
+          <NavigationBar />
+        </div>
+        
       </div>
-      <div className="min-h-screen flex-col items-center justify-between p-24 container col-auto">
+      <div className="min-h-screen flex-col items-center justify-between p-20 container col-auto">
         <div className="z-10 max-w-1xl w-full items-center justify-between text-md lg:flex">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
           suscipit sapien sed neque consectetur molestie. Praesent tempor eros
