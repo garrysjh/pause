@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 //use client
 import React from "react";
 import { Button } from "@/components/ui/button";
@@ -12,22 +13,24 @@ export default function Home() {
         <div className="row">
           <ModeToggle />
         </div>
-        <div className="row">
+        <div className="row max-w-4/5 ">
           <NavigationBar />
         </div>
       </div>
-      <div className="min-h-max flex-col items-center justify-between pl-20 pr-20 container col-auto">
-      <h1 className="scroll-m-20 text-4xl font-semibold tracking-tight lg:text-5xl italic">
+      <div className="min-h-max flex-col items-center justify-between container col-auto">
+      <h1 className="scroll-m-20 text-6xl font-semibold tracking-tight lg:text-5xl italic">
       Hi, I'm Garry Shi.
     </h1>
-    <h4 className="scroll-m-20 text-xl tracking-tight pb-4 pt-4">
-      I'm a work-in-progress. Just like this website.
+    <h4 className="scroll-m-20 text-4xl tracking-tight pt-2 pb-2">
+      I'm a work in progress.
     </h4>
-        <div className="z-10 max-w-1xl w-full items-center justify-between text-md lg:flex">
+    {/* <h4 className="scroll-m-20 text-xl tracking-tight pl-16 pb-4">
+      Just like this website.
+    </h4> */}
+        <div className="z-10 max-w-1xl text-2xl w-full items-center justify-between text-md lg:flex">
     
     
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-          suscipit sapien sed neque consectetur molestie. Praesent tempor eros
+          Professionally, I am a student, but an aspiring developer, engineer, designer and artist. Praesent tempor eros
           sit amet lectus interdum, eget posuere ligula aliquam. Integer feugiat
           augue ut lacus tincidunt lobortis. Duis vestibulum arcu eu lectus
           posuere interdum. Phasellus eget aliquet diam. Praesent dapibus orci
