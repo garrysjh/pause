@@ -18,7 +18,7 @@ export default function Home() {
         </div>
       </div>
       <div className="min-h-max flex-col items-center justify-between container col-auto">
-        <h1 className="scroll-m-20 text-6xl font-semibold tracking-tight sm:text-8xl italic">
+        <h1 className="scroll-m-20 text-6xl font-semibold tracking-tight sm:text-7xl italic">
           Hi, I'm Garry Shi.
         </h1>
         <h4 className="scroll-m-20 text-4xl tracking-tight pt-6 pb-6">
